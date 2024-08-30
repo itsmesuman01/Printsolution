@@ -1,0 +1,67 @@
+.parentdiv {
+  height: 10vh;
+  background-color: #2e9ae5;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid white;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  height: 30px;
+  width: 9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  margin-top: 10px;
+}
+
+.navContainer {
+  display: flex;
+  gap: 2rem;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hovered {
+  cursor: pointer;
+  color: #ffbe04;
+  font-size: 20px;
+  transform: scale(1.1);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.notHovered {
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  transform: scale(1);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+@media screen and (max-width: 777px) {
+  .parentdiv {
+    height: auto;
+    padding: 0;
+  }
+
+  .button {
+    width: 100%;
+    margin: 0;
+  }
+
+  .navContainer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

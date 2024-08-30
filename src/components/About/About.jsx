@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
-import Topbar from "../Topbar";
+import Topbar from "../Topbar/Topbar";
 import { useLocation } from 'react-router-dom';
 import './About.css';
 

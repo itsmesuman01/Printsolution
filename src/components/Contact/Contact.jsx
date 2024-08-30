@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
-import Topbar from '../Topbar';
+import Topbar from "../Topbar/Topbar";
 import './Contact.css'
 
 const Contact = ({ passRef }) => {
