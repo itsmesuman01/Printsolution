@@ -2,7 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import './locales/i18n'
-import About from "./components/About";
+import About from "./components/About/About";
 import Contact from "./components/Contact";
 
 function App() {

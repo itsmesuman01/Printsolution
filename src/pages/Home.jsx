@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import Topbar from "../components/Topbar";
 import Carasoul from "../components/Carasoul";
-import About from "../components/About";
+import About from "../components/About/About";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import { useTranslation } from 'react-i18next';
