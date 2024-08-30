@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import Topbar from "../components/Topbar";
 import Carasoul from "../components/Carasoul";
 import About from "../components/About/About";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
 import { useTranslation } from 'react-i18next';
 
 const Home = () => {
